@@ -6,7 +6,7 @@ class Hero {
         this.type = type
     }
 
-    atacar(type) {
+    atacar() {
 
         if (this.type == "mago") {
             let ataque = "magia"
